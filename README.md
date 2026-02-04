@@ -1,7 +1,60 @@
-# Student-records-management-systems
-Capstone Project for JP internationa  examination 
+# Student Records Management System
+Capstone Project for JP International Examination 
 
-Setup
+## Project Description
+
+A web-based student records management system designed for educational institutions to efficiently manage student data and course information. Built with PHP and MySQL, this system provides separate dashboards for administrators and students with role-based access control, secure authentication, and comprehensive management tools.
+
+## Problem Statement
+
+Educational institutions face challenges in managing large volumes of student records and course information through traditional paper-based or scattered digital systems. This leads to:
+- Inefficient data management and retrieval
+- Difficulty tracking student progress and enrollment
+- Lack of centralized course information
+- Difficulty generating reports and analytics
+- Security concerns with sensitive student data
+
+This system addresses these issues by providing a centralized, secure platform for educational administrators to manage student records and courses efficiently, while allowing students to access their own information and course details.
+
+## Core Features
+
+**Authentication & Access Control:**
+- Secure login system with username/password authentication
+- User roles: Admin and Student with role-based access
+- Password hashing and session management
+- 30-minute inactivity timeout
+- CSRF token validation
+
+**Admin Dashboard:**
+- 👥 Manage Students (view, add, edit, delete student records)
+- 📚 Manage Courses (view, add, edit, delete courses)
+- 📊 Reports (generate and view system reports)
+- ⚙️ Settings (system configuration)
+
+**Student Dashboard:**
+- 📚 View enrolled courses
+- 📝 Check grades
+- 👤 Access profile settings
+
+**Security Features:**
+- SQL injection prevention (mysqli prepared statements)
+- Password hashing with `password_verify()`
+- Session regeneration after login
+- CSRF protection on login form
+
+---
+
+## Technologies Used
+
+- **Backend**: PHP 7.4+
+- **Database**: MySQL 5.7+ / MariaDB
+- **Frontend**: HTML5, CSS3
+- **Security**: bcrypt password hashing, prepared statements, CSRF tokens
+- **Server**: Apache / Nginx / Built-in PHP server
+
+---
+
+## Setup
 
 
 

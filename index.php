@@ -17,7 +17,7 @@
 </head>
 <body>
 	<nav>
-		<label class ="logo">Bart Academy</label>
+		<label class ="logo">Student Management System</label>
 		<ul>
 			<li><a href="">Home</a></li>
 			<li><a href="">Contact</a></li>
@@ -42,7 +42,7 @@
 
 			<div class="col-md-8">
 
-				<h1>Welcome to Bart Academy</h1>
+				<h1>Welcome to Student Management System</h1>
 				<p>paste paragraph</p>
 				
 			</div>
@@ -168,6 +168,7 @@
 		</h3>
 	</footer>
 
+<?php include 'footer.php'; ?>
 
 </body>
 </html>

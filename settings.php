@@ -59,7 +59,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <body>
 
 <nav style="display: flex; justify-content: space-between; align-items: center; padding: 0 40px;">
-    <h2 style="color: white; margin: 0;">Bart Academy Admin</h2>
+    <h2 style="color: white; margin: 0;">Student Management System - Admin</h2>
     <div>
         <a href="adminhome.php" style="color: white; text-decoration: none; margin-right: 20px;">← Back</a>
         <a href="logout.php" class="btn btn-danger" style="background: #ef4444; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px;">Logout</a>
@@ -111,5 +111,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     </div>
 </div>
 
+<?php include 'footer.php'; ?>
 </body>
 </html>

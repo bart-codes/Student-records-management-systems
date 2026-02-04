@@ -28,7 +28,7 @@ if (!isset($_SESSION['username']) || $_SESSION['usertype'] != 'student') {
 <body>
 
 <nav style="display: flex; justify-content: space-between; align-items: center; padding: 0 40px;">
-	<h2 style="color: white; margin: 0;">Bart Academy</h2>
+	<h2 style="color: white; margin: 0;">Student Management System</h2>
 	<a href="logout.php" class="btn btn-danger" style="background: #ef4444; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px;">Logout</a>
 </nav>
 
@@ -47,6 +47,8 @@ if (!isset($_SESSION['username']) || $_SESSION['usertype'] != 'student') {
 		</div>
 	</div>
 </div>
+
+<?php include 'footer.php'; ?>
 
 </body>
 </html>
