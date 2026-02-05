@@ -40,16 +40,13 @@ while ($row = $result->fetch_assoc()) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Manage Courses</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        body { padding-top: 90px; }
+    </style>
 </head>
 <body>
 
-<nav style="display: flex; justify-content: space-between; align-items: center; padding: 0 40px;">
-    <h2 style="color: white; margin: 0;">Student Management System - Admin</h2>
-    <div>
-        <a href="adminhome.php" style="color: white; text-decoration: none; margin-right: 20px;">← Back</a>
-        <a href="logout.php" class="btn btn-danger" style="background: #ef4444; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px;">Logout</a>
-    </div>
-</nav>
+<?php include 'navbar.php'; ?>
 
 <div class="container" style="margin-top: 80px; max-width: 1200px; margin-left: auto; margin-right: auto;">
     <div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">

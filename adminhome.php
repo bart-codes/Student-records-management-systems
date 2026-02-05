@@ -24,13 +24,13 @@ if (!isset($_SESSION['username']) || $_SESSION['usertype'] != 'admin') {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Admin Dashboard</title>
 	<link rel="stylesheet" href="style.css">
+	<style>
+		body { padding-top: 90px; }
+	</style>
 </head>
 <body>
 
-<nav style="display: flex; justify-content: space-between; align-items: center; padding: 0 40px;">
-	<h2 style="color: white; margin: 0;">Student Management System - Admin</h2>
-	<a href="logout.php" class="btn btn-danger" style="background: #ef4444; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px;">Logout</a>
-</nav>
+<?php include 'navbar.php'; ?>
 
 <div class="container" style="margin-top: 80px; max-width: 900px; margin-left: auto; margin-right: auto;">
 	<div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">

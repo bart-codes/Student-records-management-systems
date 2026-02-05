@@ -24,13 +24,13 @@ if (!isset($_SESSION['username']) || $_SESSION['usertype'] != 'student') {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Student Dashboard</title>
 	<link rel="stylesheet" href="style.css">
+	<style>
+		body { padding-top: 90px; }
+	</style>
 </head>
 <body>
 
-<nav style="display: flex; justify-content: space-between; align-items: center; padding: 0 40px;">
-	<h2 style="color: white; margin: 0;">Student Management System</h2>
-	<a href="logout.php" class="btn btn-danger" style="background: #ef4444; color: white; padding: 8px 16px; text-decoration: none; border-radius: 6px;">Logout</a>
-</nav>
+<?php include 'navbar.php'; ?>
 
 <div class="container" style="margin-top: 80px; max-width: 900px; margin-left: auto; margin-right: auto;">
 	<div style="background: white; padding: 30px; border-radius: 10px; box-shadow: 0 4px 12px rgba(0,0,0,0.08);">
@@ -40,9 +40,9 @@ if (!isset($_SESSION['username']) || $_SESSION['usertype'] != 'student') {
 		<div style="border-top: 1px solid #e2e8f0; padding-top: 20px;">
 			<h3 style="color: #2563eb; margin-bottom: 15px;">Quick Links</h3>
 			<ul style="list-style: none; padding: 0;">
-				<li style="margin: 8px 0;"><a href="#" style="color: #2563eb; text-decoration: none;">📚 View Courses</a></li>
-				<li style="margin: 8px 0;"><a href="#" style="color: #2563eb; text-decoration: none;">📝 My Grades</a></li>
-				<li style="margin: 8px 0;"><a href="#" style="color: #2563eb; text-decoration: none;">👤 Profile Settings</a></li>
+				<li style="margin: 8px 0;"><a href="view_courses.php" style="color: #2563eb; text-decoration: none;">📚 View Courses</a></li>
+				<li style="margin: 8px 0;"><a href="my_grades.php" style="color: #2563eb; text-decoration: none;">📝 My Grades</a></li>
+				<li style="margin: 8px 0;"><a href="profile.php" style="color: #2563eb; text-decoration: none;">👤 Profile Settings</a></li>
 			</ul>
 		</div>
 	</div>

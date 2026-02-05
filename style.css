@@ -17,14 +17,23 @@ html, body {
 	font-family: "Segoe UI", Roboto, Arial, sans-serif;
 	color: var(--text);
 	background-color: var(--muted);
+	padding-top: 70px; /* reserve space for fixed navbar */
+	background-image: url('background.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 nav {
 	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 	background-color: var(--primary);
 	height: 70px;
 	width: 100%;
-	z-index: 1;
+	z-index: 9999;
 	box-shadow: 0 2px 8px rgba(16,24,40,0.06);
 }
 
@@ -72,7 +81,7 @@ ul li a:hover {
 
 .section1
 {
-	padding-top: 70px;
+	padding-top: 0;
 }
 
 .img_text {
@@ -99,7 +108,8 @@ ul li a:hover {
 
 .teacher
 {
-	width: 95%;
+	width: 90%;
+	margin: auto;
 	height: 200px;
 }
 
