@@ -1,3 +1,5 @@
+# NAME : BRIAN KIPKEMOI REG NO: 9972.95 INSTITUTION: KENYA INSTITUTE OF SOFTWARE ENGINEERING AND PROFESSIONAL STUDIES
+
 # Student Records Management System
 Capstone Project for JP International Examination 
 
@@ -180,50 +182,3 @@ Test Credentials (after setup):
 
 
 
-Next Steps
-
-
-
-- Add registration page with input validation
-
-- Implement admin dashboard (manage students/courses)
-
-- Add HTTPS enforcement and secure cookie flags (`HttpOnly`, `Secure`, `SameSite`)
-
-- Email verification for password reset
-
-
-
----
-
-## Screenshots
-
-**Login Page**
-![Login](screenshots/login.png)
-
-**Home Page**
-![Home](screenshots/home.png)
-
-**Admin Dashboard**
-![Admin Dashboard](screenshots/admin%20dashboard.png)
-
-**Admin Settings**
-![Admin Settings](screenshots/adminsettings.png)
-
-**Course List**
-![Course List](screenshots/courselist.png)
-
-**Add Student**
-![Add Student](screenshots/add%20student.png)
-
-**Student Profile Settings**
-![Student Profile Settings](screenshots/student_profile_settings.png)
-
-**Enrolled Courses**
-![Enrolled Courses](screenshots/enrolledcourses.png)
-
-**Admission Form**
-![Admission Form](screenshots/admisionform.png)
-
-**Reports**
-![Reports](screenshots/report.png)
