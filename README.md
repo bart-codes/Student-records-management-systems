@@ -193,3 +193,37 @@ Next Steps
 - Email verification for password reset
 
 
+
+---
+
+## Screenshots
+
+**Login Page**
+![Login](screenshots/login.png)
+
+**Home Page**
+![Home](screenshots/home.png)
+
+**Admin Dashboard**
+![Admin Dashboard](screenshots/admin%20dashboard.png)
+
+**Admin Settings**
+![Admin Settings](screenshots/adminsettings.png)
+
+**Course List**
+![Course List](screenshots/courselist.png)
+
+**Add Student**
+![Add Student](screenshots/add%20student.png)
+
+**Student Profile Settings**
+![Student Profile Settings](screenshots/student_profile_settings.png)
+
+**Enrolled Courses**
+![Enrolled Courses](screenshots/enrolledcourses.png)
+
+**Admission Form**
+![Admission Form](screenshots/admisionform.png)
+
+**Reports**
+![Reports](screenshots/report.png)
