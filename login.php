@@ -25,7 +25,7 @@
                     session_start();
                     error_reporting(0);
 					if (isset($_SESSION['loginMessage'])) {
-						echo "<span style='color:#ef4444; font-size:14px;'>".$_SESSION['loginMessage']."</span>";
+						echo "<span style='color:#ef4444; font-size:14px;'>".htmlspecialchars($_SESSION['loginMessage'])."</span>";
 						unset($_SESSION['loginMessage']);
 					}
 					?>
